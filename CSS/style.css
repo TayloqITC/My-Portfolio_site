@@ -169,25 +169,54 @@ body{
 
 /* About */
 
+.EXPERIENCE{
+    width: 1439px;
+    height: 610px;
+    background: #FBFBFB;
+    margin: 0 auto;  
+    margin-top: 70px;
+}
+
+.about__me{
+    width: 200px;
+    height: 90px;
+    gap: 10px;
+    text-transform: uppercase;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 45px;
+
+    /* Cinder */
+
+    color: #232E35;
+}
+
+/* ABout end */
+
+
+/* services */
 .About{
-    width:1440px;
-    height:774;
-    margin-top:30px;
-    
-    
+    position: absolute;
+    width: 1440px;
+    height: 774px;
+    /* left: 0px;
+    top: 874px; */
+
+
+    /* Light 1 */
+
+    background: #fbfbfb;
 }
 
 .section_title{
     width:240px;
     height:78px;
-    /* background-color:green; */
-    margin: 0px auto;
-    position:relative;
-    top:150px;
     display:flex;
     flex-direction:row;
     align-items:center;
-    
+    justify-items: center;
 }
 
 .About_line{
@@ -229,21 +258,19 @@ body{
 .about_section{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-content: center;
+    justify-content: space-between;
     padding: 0px;
-    gap: 56px;
     position: absolute;
     width: 1195px;
     height: 294px;
-    
-
-
 }
 
 .ab_item{
     width: 361px;
     height: 294px;
+    background-color: #fff;
 }
 
 
-/* ABout end */
+/* services end */
